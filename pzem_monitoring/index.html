@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoring PZEM004Tv3.0 - ESP32</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Monitoring</h1>
+  <div class="subtitle">PZEM004Tv3.0 - ESP32</div>
+  <div class="card">
+      <div class="data-grid">
+        <div class="data-item">
+          <span class="label">Tegangan</span>
+          <span id="voltage" class="value">0</span>
+          <span class="unit">V</span>
+        </div>
+        <div class="data-item">
+          <span class="label">Arus</span>
+          <span id="current" class="value">0</span>
+          <span class="unit">A</span>
+        </div>
+        <div class="data-item">
+          <span class="label">Daya</span>
+          <span id="power" class="value">0</span>
+          <span class="unit">W</span>
+        </div>
+        <div class="data-item">
+          <span class="label">Energi</span>
+          <span id="energy" class="value">0</span>
+          <span class="unit">Wh</span>
+        </div>
+      </div>
+      <p class="timestamp"><small>Update terakhir: <span id="timestamp">-</span></small></p>
+    </div>
+    <div class="watermark">©2025 Kelompok 1 PIPAS</div>
+    <div class="profiles">
+      <div class="profile">
+        <img src="image/hanan.jpg" alt="Hanan" class="profile-img">
+        <div class="profile-name">Hanan</div>
+      </div>
+      <div class="profile">
+        <img src="foto/rasya.jpg" alt="Rasya" class="profile-img">
+        <div class="profile-name">Rasya</div>
+      </div>
+      <div class="profile">
+        <img src="image/tania.jpg" alt="Tania" class="profile-img">
+        <div class="profile-name">Tania</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
